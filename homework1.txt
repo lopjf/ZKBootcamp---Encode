@@ -1,0 +1,19 @@
+set of Integers S = {0,1,2,3,4,5,6}
+1.
+p = 7 (because 7 numbers in S)
+4+4 = 8 mod 7 = 1
+3x ≡ 1 mod 7 = 3 x 5 mod 7 ≡ 1 = 15 mod 7 = 1 (find what multiply to 3 gives 1 when we do modulo 7)
+inverse of 3 = 3 power 5 = 243 mod 7 = 5
+
+2.
+Closure: a + b = 0 + 1 = 1. 1 is in S. So YES
+Associativity: (a • b) • c = a • (b • c) = (0 + 1) + 3 = 0 + (1 + 3). YES
+Identity element: e • a = a • e = a = 0 + 0 = 0 + 0 = 0. YES. The identity element is 0
+Inverse element: a • b = b • a = a + (-a) = (-a) + a = e = 0 + (-0) = (-0) + 0 = 0. YES
+
+3. -13 % 5 = 2
+
+4.
+(3)power3−(3)power2+4(3)−12=27−9+12−12=0
+so the positive root of the polynomial is x = 3
+The degree of the polynomial is the highest power of the variable present, which is 3 in this case. So, the degree of the polynomial is 3.
